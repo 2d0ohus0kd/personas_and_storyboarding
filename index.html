@@ -1,4 +1,7 @@
 <!-- boilerplate to make the website -->
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,20 +11,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body id="gallery-container" font-family: Open Sans;>
     <div>
-        <h1>
-            Observations
+        <h1 id="title_size">
+            McDonald's Kiosk
         </h1>
-        <p>
-            Users generally coped well with the interface; on some screens, users were able to make quick decisions (< 5 seconds), while on others they would take longer (~30 seconds). Particularly, when choosing a language and meal category (e.g. ‘sandwiches & meals,’ ‘fries,’ desserts), users navigated rapidly, but when choosing between an entree and a meal, or when selecting a drink, selections took longer. Total time from start to checkout differed between individuals ordering alone versus in pairs, taking ~1:45 minutes for individuals and ~3:30 minutes for couples.
-        </p>
+        <h2 id="bullets">
+            Helps fast food become faster by alleviating the problem of long queues for customer orders. With a touch screen interface, its key components are order selection and payment checkout.
+        </h2>
+        <img class="gallery-item" src="./assets/mcdonalds_kiosk_sketch.png" alt="sketch of mcdonlads kiosk">
+    </div>
+    <div>
+        <h1 id="subtitle">
+            How do users engage with the kiosk and what do they say?
+        </h1>
+        <div>
+            <h1>
+                Observations of user behavior
+            </h1>
+            <ul id="bullets">
+                <li>Users generally coped well with the interface; on some screens, users were able to make quick decisions (< 5 seconds), while on others they would take longer (~30 seconds).</li>
+                <li> Particularly, when choosing a language and food category (e.g. 'desserts'), users navigated rapidly, but in choosing between an entree and a meal, or when selecting a drink, selections took longer.</li>
+                <li>Total time from start to checkout differed between individuals ordering alone versus in pairs, taking <strong>~1:45 minutes for individuals and ~3:30 minutes for couples.</strong></li>
+            </ul>
+        </div>
+        <div>
+            <h1>
+                Interview questions
+            </h1>
+            <ul id="bullets">
+                <li>Was this your first time using the kiosk?</li>
+                <li>Describe your experience using the kiosk today.</li>
+                <li>Did you find anything frustrating? Was there anything you liked? What would you improve?</li>
+                <li>Do you feel like the kiosk made your order process faster?</li>
+                <li>Which do you like more, ordering with a kiosk or with a person?</li>
+                <li>How do you feel about the payment process?</li>
+                <li>What did you plan on ordering? What did you actually order?</li>
+              </ul>
+        </div>
+        <div>
+            <h1>
+                Takeaways from interviewing users
+            </h1>
+            <ul id="bullets_last">
+                <li>Among three interviewees, one was a first-time user and the others had used the McDonalds kiosk multiple times.</li>
+                <li>Two interviewees listed the kiosk as their preferred order method due to intuitiveness and speed of use, while the third interviewee prefers using his phone for hygienic reasons.</li>
+                <li>Two dissatisfactions voiced by users were <strong>poor responsiveness to usage of the ‘Help’ button</strong>, and <strong>buggy behavior from the touchpad</strong> (e.g. buttons shift when trying to add pickles to a meal).</li>
+                <li>All interviewees ordered items identical to what they had planned on ordering coming into McDonalds.</li>
+              </ul>
+        </div>
+    </div>
+    <div>
+        <h1 id="subtitle">
+            Personas - Anxious Anne and Grossed out Gary
+        </h1>
+        <div id="row">
+            <div id="column">
+              <img src="./assets/anxious_anne_persona.png" alt="anxious anne persona" style="width:100%"> 
+            </div>
+            <div id="column">
+              <img src="./assets/grossed_out_gary_four.png" alt="grossed out gary persona" style="width:100%">
+            </div>
+          </div>
     </div>
 
-    
-
-    Hello world!
+    <!-- <div>
+        <h1 id="subtitle">
+            Personas - Anxious Anne and Grossed out Gary
+        </h1>
+        <img src="./assets/anxious_anne_persona.png" alt="anxious anne persona">
+        <img src="./assets/grossed_out_gary_four.png" alt="grossed out gary persona">
+    </div> -->
+    <div>
+        <h1 id="subtitle">
+            Storyboard - Anxious Anne
+        </h1>
+        <img src="./assets/mcdonalods_storyboard_two.png" width="100%" height="100%" alt="storyboard anxious anne">
+        <!-- width="2000" height="1650" -->
+    </div>
 </body>
 </html>
 
 <!-- commit, hit the cycle button, it automatically builds and the link will update -->
+
+
+<!-- tips
+css - structure and organization
+    margins
+flexbox
+example questions -->
